@@ -1,4 +1,4 @@
-from api.star_wars_api import StarWarsApi
+from star_wars_api import StarWarsApi
 
 def print_movie_info(movie_id):
     api_client = StarWarsApi()
